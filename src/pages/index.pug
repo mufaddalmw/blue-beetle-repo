@@ -6,6 +6,11 @@ html(lang="en")
         title Test Page
         link(rel="stylesheet", href="css/app.css")
     body
-        include components/header/header
-        include components/banner/banner
+        .wrapper
+            include components/header/header
+            include components/banner/banner
+            include components/thumbnails/thumbnails
+            include components/about/about
+        
+        
         script(src="js/app.js")

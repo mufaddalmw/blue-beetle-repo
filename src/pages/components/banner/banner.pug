@@ -3,13 +3,16 @@
         .swiper-wrapper
             .swiper-slide
                 .home-banner__item
-                    img(src="img/banner-water.jpg", alt="banner-water", srcset="img/banner-water.jpg 640w, img/banner-water-sm.jpg 320w")
+                    //- img(src="img/banner-water.jpg", alt="banner-water", srcset="img/banner-water.jpg 640w, img/banner-water-sm.jpg 320w")
+                    .home-banner__img(style="background-image:url('img/banner-water.jpg');")
                     .home-banner__content
                         h1 Why do we use it?
                         p It is a long established fact that a reader 
             .swiper-slide
                 .home-banner__item
-                    img(src="img/banner-ireland.jpg", alt="banner-ireland", srcset="img/banner-ireland.jpg 640w, img/banner-ireland-sm.jpg 320w")
+                    
+                    .home-banner__img(style="background-image:url('img/banner-ireland.jpg');")
+                    //- img(src="img/banner-ireland.jpg", alt="banner-ireland", srcset="img/banner-ireland.jpg 640w, img/banner-ireland-sm.jpg 320w")
                     .home-banner__content
                         h1 It is a long established
                         p  Why do we use it? 

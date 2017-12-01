@@ -1,0 +1,38 @@
+.nav-bar {
+    @include breakpoint(small only) {
+        display: none;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+    }
+    &__item {
+        a {
+            display: block;
+            padding: rem-calc(15 10);
+            color: $body-font-color;
+            font-size: rem-calc(18);
+            font-weight: $global-weight-bold;
+            position: relative;
+            &:after {
+                height:2px;
+                content: '';
+                width: 0;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transition:$global-transition;
+                background:$body-font-color;
+            }
+            &:hover, &:focus {
+                &:after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

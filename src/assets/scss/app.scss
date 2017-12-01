@@ -1,6 +1,6 @@
 $global-text-direction: ltr;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
 @import './node_modules/foundation-sites/scss/foundation';
 @import 'settings';
@@ -46,6 +46,10 @@ $global-text-direction: ltr;
 // @include foundation-float-classes;
 
 @import 'base';
+@import 'common';
 @import '../../../node_modules/swiper/dist/css/swiper';
 @import '../../pages/components/header/header';
+@import '../../pages/components/menubar/menubar';
 @import '../../pages/components/banner/banner';
+@import '../../pages/components/thumbnails/thumbnails';
+@import '../../pages/components/about/about';

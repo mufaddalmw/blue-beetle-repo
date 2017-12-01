@@ -5,7 +5,7 @@ function homebanner() {
     let swiper = new Swiper('.js-home-banner', {
         autoplay: {
             delay: 3000,
-            disableOnInteraction:false
+            // disableOnInteraction:false
         },
         fadeEffect: {
             crossFade: true

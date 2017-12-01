@@ -3,12 +3,5 @@
         .columns.small-4.medium-2
             .site-header__logo
                 img(src="img/sample-logo-black.svg", alt="sample-logo-black.svg")
-        .columns.small-5
-            nav.nav-bar
-                ul
-                    -
-                        var list = ["Home", "About", "Services", "Projects", "Contact"]
-                    each item in list
-                        li.nav-bar__item 
-                            a(href="#")= item
-        
+        .columns.medium-7
+            include ../menubar/menubar

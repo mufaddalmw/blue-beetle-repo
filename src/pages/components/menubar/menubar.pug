@@ -1,0 +1,7 @@
+nav.nav-bar
+    ul
+        -
+            var list = ["Home", "About", "Services", "Projects", "Contact"]
+        each item in list
+            li.nav-bar__item 
+                a(href="#")= item
