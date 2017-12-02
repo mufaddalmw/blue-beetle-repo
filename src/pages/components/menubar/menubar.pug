@@ -1,7 +1,12 @@
 nav.nav-bar
-    ul
-        -
-            var list = ["Home", "About", "Services", "Projects", "Contact"]
-        each item in list
-            li.nav-bar__item 
-                a(href="#")= item
+    ul(data-smooth-scroll)
+        li.nav-bar__item 
+            a(href="#home") Home
+        li.nav-bar__item 
+            a(href="#services") Services
+        li.nav-bar__item 
+            a(href="#about") About
+        li.nav-bar__item 
+            a(href="#projects") Projects
+        li.nav-bar__item 
+            a(href="#contact") Contact
