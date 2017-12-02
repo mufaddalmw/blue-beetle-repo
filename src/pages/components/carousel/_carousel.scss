@@ -1,0 +1,21 @@
+.swiper-pagination {
+    position: static;
+    margin-top: rem-calc(15);
+    
+}
+.swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+}
+.products {   
+    margin:rem-calc(80 0); 
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: rem-calc(34);
+        background: none;
+        .icon {
+            width: 100%;
+            fill: $white;
+        }
+    }
+}

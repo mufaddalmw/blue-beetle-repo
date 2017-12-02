@@ -1,15 +1,23 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/img/left-arrow.svg": "/img/left-arrow.svg",
+    "/img/right-arrow.svg": "/img/right-arrow.svg",
     "/img/sample-logo-black.svg": "/img/sample-logo-black.svg",
     "/img/banner-ireland-sm.jpg": "/img/banner-ireland-sm.jpg",
     "/img/banner-ireland.jpg": "/img/banner-ireland.jpg",
     "/img/banner-water-sm.jpg": "/img/banner-water-sm.jpg",
     "/img/banner-water.jpg": "/img/banner-water.jpg",
+    "/img/carousel--grass2.jpg": "/img/carousel--grass2.jpg",
+    "/img/carousel-grass1.jpg": "/img/carousel-grass1.jpg",
+    "/img/carousel-grass3.jpg": "/img/carousel-grass3.jpg",
+    "/img/carousel-grass4.jpg": "/img/carousel-grass4.jpg",
+    "/img/carousel-home1.jpg": "/img/carousel-home1.jpg",
+    "/img/carousel-ocean.jpg": "/img/carousel-ocean.jpg",
     "/img/thumbnail-boat.jpg": "/img/thumbnail-boat.jpg",
     "/img/thumbnail-hills.jpg": "/img/thumbnail-hills.jpg",
     "/img/thumbnail-ocean-shark.jpg": "/img/thumbnail-ocean-shark.jpg",
     "/img/thumbnail-ocean.jpg": "/img/thumbnail-ocean.jpg",
     "/img/thumbnail-river-forest.jpg": "/img/thumbnail-river-forest.jpg",
-    "/img/thumbnail-sagres-portugal.jpg": "/img/thumbnail-sagres-portugal.jpg",
-    "/css/app.css": "/css/app.css"
+    "/img/thumbnail-sagres-portugal.jpg": "/img/thumbnail-sagres-portugal.jpg"
 }

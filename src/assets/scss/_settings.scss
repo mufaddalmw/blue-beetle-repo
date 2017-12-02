@@ -1,69 +1,69 @@
-// //  Foundation for Sites Settings
-// //  -----------------------------
-// //
-// //  Table of Contents:
-// //
-// //   1. Global
-// //   2. Breakpoints
-// //   3. The Grid
-// //   4. Base Typography
-// //   5. Typography Helpers
-// //   6. Abide
-// //   7. Accordion
-// //   8. Accordion Menu
-// //   9. Badge
-// //  10. Breadcrumbs
-// //  11. Button
-// //  12. Button Group
-// //  13. Callout
-// //  14. Card
-// //  15. Close Button
-// //  16. Drilldown
-// //  17. Dropdown
-// //  18. Dropdown Menu
-// //  19. Flexbox Utilities
-// //  20. Forms
-// //  21. Label
-// //  22. Media Object
-// //  23. Menu
-// //  24. Meter
-// //  25. Off-canvas
-// //  26. Orbit
-// //  27. Pagination
-// //  28. Progress Bar
-// //  29. Prototype Arrow
-// //  30. Prototype Border-Box
-// //  31. Prototype Border-None
-// //  32. Prototype Bordered
-// //  33. Prototype Display
-// //  34. Prototype Font-Styling
-// //  35. Prototype List-Style-Type
-// //  36. Prototype Overflow
-// //  37. Prototype Position
-// //  38. Prototype Rounded
-// //  39. Prototype Separator
-// //  40. Prototype Shadow
-// //  41. Prototype Sizing
-// //  42. Prototype Spacing
-// //  43. Prototype Text-Decoration
-// //  44. Prototype Text-Transformation
-// //  45. Prototype Text-Utilities
-// //  46. Responsive Embed
-// //  47. Reveal
-// //  48. Slider
-// //  49. Switch
-// //  50. Table
-// //  51. Tabs
-// //  52. Thumbnail
-// //  53. Title Bar
-// //  54. Tooltip
-// //  55. Top Bar
-// //  56. Xy Grid
+//  Foundation for Sites Settings
+//  -----------------------------
+//
+//  Table of Contents:
+//
+//   1. Global
+//   2. Breakpoints
+//   3. The Grid
+//   4. Base Typography
+//   5. Typography Helpers
+//   6. Abide
+//   7. Accordion
+//   8. Accordion Menu
+//   9. Badge
+//  10. Breadcrumbs
+//  11. Button
+//  12. Button Group
+//  13. Callout
+//  14. Card
+//  15. Close Button
+//  16. Drilldown
+//  17. Dropdown
+//  18. Dropdown Menu
+//  19. Flexbox Utilities
+//  20. Forms
+//  21. Label
+//  22. Media Object
+//  23. Menu
+//  24. Meter
+//  25. Off-canvas
+//  26. Orbit
+//  27. Pagination
+//  28. Progress Bar
+//  29. Prototype Arrow
+//  30. Prototype Border-Box
+//  31. Prototype Border-None
+//  32. Prototype Bordered
+//  33. Prototype Display
+//  34. Prototype Font-Styling
+//  35. Prototype List-Style-Type
+//  36. Prototype Overflow
+//  37. Prototype Position
+//  38. Prototype Rounded
+//  39. Prototype Separator
+//  40. Prototype Shadow
+//  41. Prototype Sizing
+//  42. Prototype Spacing
+//  43. Prototype Text-Decoration
+//  44. Prototype Text-Transformation
+//  45. Prototype Text-Utilities
+//  46. Responsive Embed
+//  47. Reveal
+//  48. Slider
+//  49. Switch
+//  50. Table
+//  51. Tabs
+//  52. Thumbnail
+//  53. Title Bar
+//  54. Tooltip
+//  55. Top Bar
+//  56. Xy Grid
 
 // @import 'util/util';
 
-// // 1. Global
-// // ---------
+// 1. Global
+// ---------
 
 $global-font-size: 100%;
 $global-width: rem-calc(940);
@@ -89,7 +89,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: 500;
-$global-radius: 0;
+$global-radius: 4px;
 $global-transition:0.2s;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
@@ -796,14 +796,14 @@ $table-stack-breakpoint: medium;
 $tab-margin: 0;
 $tab-background: $white;
 $tab-color: $primary-color;
-$tab-background-active: $light-gray;
+$tab-background-active: transparent;
 $tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
+$tab-item-font-size: rem-calc(20);
 $tab-item-background-hover: $white;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
 $tab-content-background: $white;
-$tab-content-border: $light-gray;
+$tab-content-border: transparent;
 $tab-content-color: $body-font-color;
 $tab-content-padding: 1rem;
 

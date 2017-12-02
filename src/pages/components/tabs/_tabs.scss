@@ -1,0 +1,17 @@
+.tabs {
+    display: flex;
+    border-bottom: solid 2px $primary-color;
+    .tabs-title {
+        flex-grow: 1;
+        text-align: center;
+        border: solid 2px transparent;
+        border-bottom: none;
+        border-radius: $global-radius $global-radius 0 0; 
+        a:focus {
+            outline: none;
+        }
+        &.is-active {
+            border-color: $primary-color;
+        }
+    }
+}
