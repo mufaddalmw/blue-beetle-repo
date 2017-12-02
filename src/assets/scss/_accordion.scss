@@ -1,0 +1,11 @@
+.accordion {
+    &-item {
+        
+        border-top: solid 1px $light-gray;
+        &.is-active {
+            a {
+                color: $white;
+            }
+        }
+    }
+}

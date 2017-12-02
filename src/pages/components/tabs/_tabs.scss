@@ -1,6 +1,7 @@
 .tabs {
     display: flex;
     border-bottom: solid 2px $primary-color;
+    
     .tabs-title {
         flex-grow: 1;
         text-align: center;
@@ -12,6 +13,13 @@
         }
         &.is-active {
             border-color: $primary-color;
+        }
+    }
+}
+.projects {
+    h4 {
+        @include breakpoint(small only) {
+            margin-top: 0.75rem;
         }
     }
 }
