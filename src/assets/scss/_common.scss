@@ -21,5 +21,12 @@
     height: 100%;
   }
   .block {
-    margin: rem-calc(80 0);
+    margin: rem-calc(40 0);
+    @include breakpoint(large){
+      margin: rem-calc(80 0);
+    }
+    
+  }
+  .relative {
+    position: relative;
   }

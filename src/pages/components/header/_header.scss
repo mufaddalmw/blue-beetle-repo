@@ -5,6 +5,9 @@
     transition: $global-transition;
     &__logo {
         padding: rem-calc(20 0);
+        .is-sticky & {
+            padding: rem-calc(10 0);
+        }
     }
     &.is-sticky {
         background:rgba($white, 0.75);

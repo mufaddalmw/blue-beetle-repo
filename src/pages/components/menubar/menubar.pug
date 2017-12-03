@@ -1,5 +1,5 @@
 nav.nav-bar
-    ul(data-smooth-scroll)
+    ul(data-smooth-scroll data-offset="30")
         li.nav-bar__item 
             a(href="#home") Home
         li.nav-bar__item 
@@ -9,4 +9,8 @@ nav.nav-bar
         li.nav-bar__item 
             a(href="#projects") Projects
         li.nav-bar__item 
-            a(href="#contact") Contact
+            a(href="#subscribe") Subscribe
+
+//- mobile menu toggle
+button.hamburger-menu.js-menu-toggle(type="button" data-toggle="offCanvasLeft") 
+    span.bar
