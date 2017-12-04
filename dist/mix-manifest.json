@@ -1,6 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/css/app.css.map": "/css/app.css.map",
     "/img/left-arrow.svg": "/img/left-arrow.svg",
     "/img/right-arrow.svg": "/img/right-arrow.svg",
     "/img/sample-logo-black.svg": "/img/sample-logo-black.svg",

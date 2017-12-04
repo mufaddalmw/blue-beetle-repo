@@ -5,5 +5,8 @@
     &.white {
         background: $white;
         color: $primary-color;
+        &:hover, &:focus {
+            background-color: rgba($white, 0.8);
+        }
     }
 }

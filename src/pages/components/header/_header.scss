@@ -5,11 +5,14 @@
     transition: $global-transition;
     &__logo {
         padding: rem-calc(20 0);
+        @include breakpoint(large){
+            padding-right: rem-calc(30);
+        }
         .is-sticky & {
             padding: rem-calc(10 0);
         }
     }
     &.is-sticky {
-        background:rgba($white, 0.75);
+        background:rgba($white, 0.9);
     }
 }

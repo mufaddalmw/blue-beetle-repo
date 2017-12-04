@@ -1,17 +1,17 @@
 .subscribe#subscribe(data-magellan-target="subscribe")
-    form(action="", method="get" data-abide novalidate)
+    form(action="index.html", method="get" data-abide novalidate)
         .row
             .columns.small-12
                 h3 Join Mailing List
             .columns.medium-6.small-12
                 label Name:
                     input(type="text" placeholder="Enter your name" required)
-                    .form-error Yo, you had better fill this out, it's required.
+                    span.form-error Yo, you had better fill this out, it's required.
                     
             .columns.medium-6.small-12
                 label Email Address:
                     input(type="email" placeholder="Enter your email" required)
-                    .form-error Yo, you had better fill this out, it's required.
+                    span.form-error Yo, you had better fill this out, it's required.
             .columns.small-12
                 input.button.white(type="submit" value="Submit")
                 
