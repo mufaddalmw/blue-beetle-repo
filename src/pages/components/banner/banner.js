@@ -7,7 +7,7 @@ const banner = {
         this.handleEvents();
     },
     handleEvents: function(){
-        $(window).load(this.handleEvents);
+        // $(window).load(this.homebanner);
     },
     homebanner: function() {
         let swiper = new Swiper('.js-home-banner', {
