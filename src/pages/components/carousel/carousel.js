@@ -5,7 +5,7 @@ const carousel = {
         this.homecarousel();
     },
     homecarousel: function() {
-        let swiper = new Swiper('.js-products-carousel', {
+        let swiper = new Swiper('.js-carousel', {
             breakpoints: {
                 // when window width is <= 640px
                 640: {

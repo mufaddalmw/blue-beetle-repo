@@ -1,4 +1,4 @@
-.projects.block#products
+.products.block#products(data-magellan-target="products")
     .row.columns
         ul.tabs(id="example-tabs" data-responsive-accordion-tabs="tabs small-accordion medium-tabs")
             li.tabs-title.is-active
@@ -11,7 +11,8 @@
             .tabs-panel.is-active#panel1 
                 .row
                     .columns.medium-6.small-12
-                        img(src="img/sveti-stefan-montenegro.jpg", alt="sveti-stefan-montenegro")
+                        .products__img
+                            img.lazyload(data-src="img/sveti-stefan-montenegro.jpg", alt="sveti-stefan-montenegro")
                     .columns.medium-6.small-12
                         h4 Timeam euismod voluptua duo id
                         p Ullum indoctum interpretaris sed an, labores voluptatum ex per, at vitae necessitatibus eam. Et cum impetus quaestio adversarium, ne ferri apeirian persecuti per. In eam libris euismod tacimates. Dicat vulputate an usu, ei qui dicta populo.
@@ -19,7 +20,8 @@
             .tabs-panel#panel2 
                 .row
                     .columns.medium-6.small-12
-                        img(src="img/shkoder-albania.jpg", alt="shkoder-albania")
+                        .products__img
+                            img.lazyload(data-src="img/shkoder-albania.jpg", alt="shkoder-albania")
                     .columns.medium-6.small-12
                         h4 Ac fermentum et ante dictum odio
                         p Mollis vel libero. Ac fermentum et ante dictum odio. Vulputate elit integer suspendisse at venenatis. Nullam pretium aliquam. Sit dui libero semper eget amet pulvinar aliquam neque. Sagittis sollicitudin odio ipsum penatibus pulvinar sed aliquet sit orci vulputate sed. 
@@ -27,7 +29,8 @@
             .tabs-panel#panel3
                 .row
                     .columns.medium-6.small-12
-                        img(src="img/kotor-montenegro.jpg", alt="kotor-montenegro")
+                        .products__img
+                            img.lazyload(data-src="img/kotor-montenegro.jpg", alt="kotor-montenegro")
                     .columns.medium-6.small-12
                         h4 Tortor vitae vulputate wisi
                         p Amet consequat arcu enim consectetur venenatis adipiscing porta felis. Tellus tortor sed libero cursus vestibulum purus sagittis vel cras quia accumsan lectus pellentesque wisi fermentum purus nullam sit sapien est. Pulvinar iaculis et volutpat est accumsan.

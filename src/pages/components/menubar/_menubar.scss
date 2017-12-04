@@ -47,11 +47,21 @@
                 transition:$global-transition;
                 background:$body-font-color;
             }
-            &:hover, &:focus {
+            &.is-active {
+                color: $primary-color;
+                &:after {
+                    @include breakpoint(large){
+                        width: 100%;
+                        background:$primary-color;
+                    }
+                }
+            }
+            &:hover {
                 &:after {
                     width: 100%;
                 }
             }
+            
         }
     }
 }
@@ -63,11 +73,10 @@ $bar-spacing: 10px;
 .hamburger-menu {
     @extend .show-for-small-only ;
     position: absolute;
-  top: 25%;
-  
-  right: 10px;
-  margin: auto;
-  width: $bar-width;
+    top: 25%;
+    right: 10px;
+    margin: auto;
+    width: $bar-width;
 	height: $bar-height + $bar-spacing*2;
     cursor: pointer;
     &:focus {

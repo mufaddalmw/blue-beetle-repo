@@ -1,6 +1,11 @@
 .accordion {
+    &-content {
+        @include breakpoint(small only) {
+            padding: rem-calc(10);
+            border: solid 1px $primary-color;
+        }
+    }
     &-item {
-        
         border-top: solid 1px $light-gray;
         &.is-active {
             a {

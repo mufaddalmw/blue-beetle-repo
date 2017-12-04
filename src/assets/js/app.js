@@ -1,5 +1,6 @@
 import $, {jQuery} from 'jquery';
 import foundation from 'foundation-sites';
+import lazysizes from 'lazysizes';
 
 // init foundation
 $(document).foundation();

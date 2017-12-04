@@ -16,10 +16,15 @@
         }
     }
 }
-.projects {
+.products {
+    .button {
+        @include breakpoint(small only) {
+            margin-bottom: 0;
+        }
+    }
     h4 {
         @include breakpoint(small only) {
-            margin-top: 0.75rem;
+            margin-top: rem-calc(10);
         }
     }
 }

@@ -1,5 +1,8 @@
 .subscribe {
     background: $primary-color;
     color: $white;
-    padding: rem-calc(80 0);
+    padding: rem-calc(40 0);
+    @include breakpoint(large) {
+        padding: rem-calc(80 0);
+    }
 }
