@@ -16,7 +16,6 @@ const HtmlWebpackExcludeAssetsPlugin = require('html-webpack-exclude-assets-plug
 
 mix.js('src/assets/js/app.js', 'dist/js')
 .sass('src/assets/scss/app.scss', 'dist/css')
-.sourceMaps('./')
 .setPublicPath('dist')
 .browserSync({
     files: ["dist/**/*"],
@@ -48,6 +47,14 @@ mix.js('src/assets/js/app.js', 'dist/js')
     
 })
 .disableNotifications();
+
+// SourceMaps for development
+if (!mix.inProduction()) {
+    mix.webpackConfig({
+        devtool: 'source-map'
+    })
+    .sourceMaps()
+}
 
 // Full API
 // mix.js(src, output);
