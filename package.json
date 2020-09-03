@@ -24,7 +24,7 @@
   "dependencies": {
     "foundation-sites": "^6.4.4-rc1",
     "jquery": "^3.2.1",
-    "lazysizes": "^4.0.1",
+    "lazysizes": "^5.2.2",
     "swiper": "^4.0.7"
   }
 }
